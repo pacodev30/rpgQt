@@ -1,0 +1,10 @@
+# ninja log v6
+6	206	7531440618949276	rpgQt_autogen/timestamp	45004b970ba33ce6
+6	206	7531440618949276	rpgQt_autogen/mocs_compilation.cpp	45004b970ba33ce6
+6	206	7531440618949276	C:/Users/user/DEV/PROJECTS/rpgQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/rpgQt_autogen/timestamp	45004b970ba33ce6
+6	206	7531440618949276	C:/Users/user/DEV/PROJECTS/rpgQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/rpgQt_autogen/mocs_compilation.cpp	45004b970ba33ce6
+209	292	7531440619555268	CMakeFiles/rpgQt.dir/rpgQt_autogen/mocs_compilation.cpp.obj	9f36c13accfa70a2
+212	717	7531440619589144	CMakeFiles/rpgQt.dir/main.cpp.obj	b74a3dcf86cb9551
+221	732	7531440619678884	CMakeFiles/rpgQt.dir/Weapon.cpp.obj	38250150d81b0b03
+216	856	7531440619629026	CMakeFiles/rpgQt.dir/Player.cpp.obj	23576e20a6c106d
+857	1024	7531440626032687	rpgQt.exe	96c1b0949cb8fcdb
