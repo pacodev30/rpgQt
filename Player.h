@@ -11,10 +11,11 @@ public:
     Player(Player const& other);
 
     void getState() const;
+    std::string getName();
+    bool getIsAlive();
 
-    bool isAlive();
-    void attack(Player &target);
-    void hurt(int damageQuantity);
+    void setAttack(Player &target, int boost);
+    void setHurt(int damageQuantity);
     void setWp(std::string newWpName, int newDamage);
 
 private:

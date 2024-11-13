@@ -3,19 +3,22 @@
 
 int main()
 {
-    Player unknow;
+    Player monster;
     Player stella("Stella", "Arc", 15);
-    Player esteban("Esteban", "Hammer", 20);
+    Player esteban("Esteban", "Hammer", 30);
 
-    unknow.getState();
+    monster.getState();
     esteban.getState();
     stella.getState();
 
-    unknow.attack(stella);
-    esteban.attack(unknow);
-    stella.attack(esteban);
+    monster.setWp("Saber", 30);
 
-    unknow.getState();
+    monster.setAttack(stella, 1);
+    stella.setAttack(monster, 3);
+    esteban.setAttack(monster, 2);
+    monster.setAttack(esteban, 2);
+
+    monster.getState();
     esteban.getState();
     stella.getState();
 
