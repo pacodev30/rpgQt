@@ -65,9 +65,9 @@ build CMakeFiles/rpgQt.dir/main.cpp.obj: CXX_COMPILER__rpgQt_unscanned_Debug C$:
   OBJECT_DIR = CMakeFiles\rpgQt.dir
   OBJECT_FILE_DIR = CMakeFiles\rpgQt.dir
 
-build CMakeFiles/rpgQt.dir/Player.cpp.obj: CXX_COMPILER__rpgQt_unscanned_Debug C$:/Users/user/DEV/PROJECTS/rpgQt/Player.cpp || cmake_object_order_depends_target_rpgQt
+build CMakeFiles/rpgQt.dir/Character.cpp.obj: CXX_COMPILER__rpgQt_unscanned_Debug C$:/Users/user/DEV/PROJECTS/rpgQt/Character.cpp || cmake_object_order_depends_target_rpgQt
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\rpgQt.dir\Player.cpp.obj.d
+  DEP_FILE = CMakeFiles\rpgQt.dir\Character.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/user/DEV/PROJECTS/rpgQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/rpgQt_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++
   OBJECT_DIR = CMakeFiles\rpgQt.dir
@@ -89,7 +89,7 @@ build CMakeFiles/rpgQt.dir/Weapon.cpp.obj: CXX_COMPILER__rpgQt_unscanned_Debug C
 #############################################
 # Link the executable rpgQt.exe
 
-build rpgQt.exe: CXX_EXECUTABLE_LINKER__rpgQt_Debug CMakeFiles/rpgQt.dir/rpgQt_autogen/mocs_compilation.cpp.obj CMakeFiles/rpgQt.dir/main.cpp.obj CMakeFiles/rpgQt.dir/Player.cpp.obj CMakeFiles/rpgQt.dir/Weapon.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a || rpgQt_autogen rpgQt_autogen_timestamp_deps
+build rpgQt.exe: CXX_EXECUTABLE_LINKER__rpgQt_Debug CMakeFiles/rpgQt.dir/rpgQt_autogen/mocs_compilation.cpp.obj CMakeFiles/rpgQt.dir/main.cpp.obj CMakeFiles/rpgQt.dir/Character.cpp.obj CMakeFiles/rpgQt.dir/Weapon.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a || rpgQt_autogen rpgQt_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rpgQt.dir

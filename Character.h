@@ -1,20 +1,20 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef CHARACTER_H
+#define CHARACTER_H
 #include "Weapon.h"
 #include <string>
 
-class Player
+class Character
 {
 public:
-    Player();
-    Player(std::string name, std::string wpName, int wpDamage);
-    Player(Player const& other);
+    Character();
+    Character(std::string name, std::string wpName, int wpDamage);
+    Character(Character const& other);
 
     void getState() const;
     std::string getName();
     bool getIsAlive();
 
-    void setAttack(Player &target, int boost);
+    void setAttack(Character &target, int boost);
     void setHurt(int damageQuantity);
     void setWp(std::string newWpName, int newDamage);
 
@@ -25,4 +25,4 @@ private:
 
 };
 
-#endif // PLAYER_H
+#endif // CHARACTER_H

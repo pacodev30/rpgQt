@@ -14,7 +14,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(rpgQt
   main.cpp
-  Player.h Player.cpp
+  Character.h Character.cpp
   Weapon.h Weapon.cpp
 
 )

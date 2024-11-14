@@ -1,17 +1,17 @@
-#include "Player.h"
+#include "Character.h"
 #include <iostream>
 
-Player::Player()
+Character::Character()
     : _name("Monster"), _hp(100), _wp("Knife", 10)
 {}
-Player::Player(std::string name, std::string wpName, int wpDamage)
+Character::Character(std::string name, std::string wpName, int wpDamage)
     : _name(name), _hp(100), _wp(wpName, wpDamage)
 {}
-Player::Player(Player const& other)
-    : _hp(other._hp), _wp(other._wp)
+Character::Character(Character const& other)
+    : _name(other._name), _hp(other._hp), _wp(other._wp)
 {}
 
-void Player::getState() const
+void Character::getState() const
 {
     std::cout       << "-----" << std::endl;
     std::cout       << "Name : " << _name << std::endl;
@@ -24,17 +24,17 @@ void Player::getState() const
     std::cout       << "------------------" << std::endl;
 }
 
-std::string Player::getName()
+std::string Character::getName()
 {
     return _name;
 }
-bool Player::getIsAlive()
+bool Character::getIsAlive()
 {
     return _hp > 0;
 }
 
 
-void Player::setAttack(Player &target, int boost)
+void Character::setAttack(Character &target, int boost)
 {
     if(getIsAlive())
     {
@@ -55,14 +55,14 @@ void Player::setAttack(Player &target, int boost)
     } else
         std::cout << _name << " can't attack because he's dead !!!" << std::endl;
 }
-void Player::setHurt(int damage)
+void Character::setHurt(int damage)
 {
     if(damage > _hp)
         _hp = 0;
     else
         _hp -= damage;
 }
-void Player::setWp(std::string newWpName, int newDamage)
+void Character::setWp(std::string newWpName, int newDamage)
 {
     if(getIsAlive())
         _wp.setWeapon(newWpName, newDamage);

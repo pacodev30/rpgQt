@@ -150,9 +150,9 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/user/DEV/PROJECTS/rpgQt/Player.h",
+			"C:/Users/user/DEV/PROJECTS/rpgQt/Character.h",
 			"MU",
-			"EWIEGA46WW/moc_Player.cpp",
+			"EWIEGA46WW/moc_Character.cpp",
 			null
 		],
 		[
@@ -228,7 +228,7 @@
 	"SETTINGS_FILE" : "C:/Users/user/DEV/PROJECTS/rpgQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/rpgQt_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/user/DEV/PROJECTS/rpgQt/Player.cpp", "MU", null ],
+		[ "C:/Users/user/DEV/PROJECTS/rpgQt/Character.cpp", "MU", null ],
 		[ "C:/Users/user/DEV/PROJECTS/rpgQt/Weapon.cpp", "MU", null ],
 		[ "C:/Users/user/DEV/PROJECTS/rpgQt/main.cpp", "MU", null ]
 	],

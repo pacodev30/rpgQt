@@ -1,11 +1,11 @@
-#include "Player.h"
+#include "Character.h"
 #include <string>
 
 int main()
 {
-    Player monster;
-    Player stella("Stella", "Arc", 15);
-    Player esteban("Esteban", "Hammer", 30);
+    Character monster;
+    Character stella("Stella", "Arc", 15);
+    Character esteban("Esteban", "Hammer", 30);
 
     monster.getState();
     esteban.getState();
